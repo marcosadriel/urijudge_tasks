@@ -12,15 +12,20 @@ import java.util.Scanner;
  *
  * @author marcos.rost
  */
-public class Task1016 {
+public class Task1017 {
     
     public void calc() {
         
-        Scanner entry =  new Scanner(System.in);
+        final int cons = 12; //Consumo do veículo
         
-        int dist = entry.nextInt();
+        Scanner entry = new Scanner(System.in);
         
-        System.out.println(String.format(Locale.US, "%d minutos", dist * 2));
+        double tempo = (double) entry.nextInt();
+        
+        double media = (double) entry.nextInt();
+        
+        System.out.println(String.format(Locale.US, "%.3f", (tempo*media)/cons));
+        
     }
     
 }
