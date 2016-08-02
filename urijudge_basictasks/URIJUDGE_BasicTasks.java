@@ -18,7 +18,7 @@ public class URIJUDGE_BasicTasks {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        Task1015 function = new Task1015();
+        Task1019 function = new Task1019();
         
         function.calc();
         
