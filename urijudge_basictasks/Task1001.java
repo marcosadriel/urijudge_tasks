@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
 
 /**
  *
- * @author marcos.rost
+ * @author marcos.adriel
  */
 public class Task1001 {
     
